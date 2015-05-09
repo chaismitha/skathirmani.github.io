@@ -1,0 +1,18 @@
+h1.caption{
+  color: black;
+}
+.float_right{
+  position: relative;
+  float: right;
+}
+.twitter{
+  position: relative;
+  right: 15px;
+}
+.gmail{
+  position: relative;
+  right: 30px;
+}
+.hide{
+  display: none;
+}

@@ -1,0 +1,101 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <style type="text/css">
+      body{
+        background: url("images/bg.jpg")
+      }
+      .tile{
+        background-color: #F2F0F0;
+        width: 300px;
+        display: inline-block;
+        margin-right: 20px;
+      }
+      .tile_title{
+        color: #D11010;
+        font-weight: bold;
+        padding-top: 20px;
+      }
+      .pos_center{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
+      .tile_content{
+        font-style: italic;
+        font-family: 
+        text-align: justify;
+        margin: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Kathirmani Sukumar</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Machine Learning</a></li>
+            <li><a href="#">Bookmarks</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Visualization <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav float_right">
+            <li class="float_right"><a href="http://in.linkedin.com/in/kathirmani/" target="_blank"><img src="images/linkedin.png" width="25" height="25"></a></li>
+            <li class="float_right twitter"><a href="https://twitter.com/skathirmani" target="_blank"><img src="images/twitter.png" width="25" height="25"></a></li>
+            <li class="float_right gmail"><a title="kathir.sukumar@gmail.com"><img src="images/gmail.jpg" width="25" height="25"></li></a>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <div class="container">
+      <div class="tile">
+        <div class="tile_title">
+          <font></font>
+          <img class="pos_center" src="images/myself.jpg" width="250" height="300">
+        </div>
+        <div class="tile_content">
+          <p>I am pursuing my career as <b>Data Scientist</b> at <a href="http://gramener.com"> Gramener </a>. I am good at analytics, programming and research. I have a good background in statistical analysis, digital signal processing and hands on experience in MATLAB, Python, R, D3, JQuery. This site is collections of what i do and learn.</p>
+        </div>
+      </div>
+      <div class="tile">
+        <div class="tile_title">
+          <a href="http://nbviewer.ipython.org/github/skathirmani/skathirmani.github.io/blob/master/killme/imdb_scrapper.ipynb" target="_blank" ><img class="pos_center" src="images/white_noise.jpg" width="250" height="300"></a>
+        </div>
+        <div class="tile_content">
+          <p><font class="tile_title">Predicting Mutual Fund data</font></p>
+          <p> Recently i participated in Data Hackathon I (internal hack fest at Gramener) and won the competition. I did basic predictive analytics and visualization on the mutual fund data (which can be freely downloaded from <a href="http://www.amfiindia.com/nav-history-download"> here </a>). Randomly i selected <b>Birla Sun Life Mutual Fund (Open Ended Scheme) </b> for the past two years.</p>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
