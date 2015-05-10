@@ -16,3 +16,6 @@ h1.caption{
 .hide{
   display: none;
 }
+.topic_title{
+  border-bottom: 1px solid gray;
+}

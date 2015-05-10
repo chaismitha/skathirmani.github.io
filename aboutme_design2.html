@@ -71,11 +71,22 @@
       </div><!-- /.container-fluid -->
     </nav>
     <div class="container">
-      <div class="about_groups about_me">
-        <h2 class="topic_title">About me</h2>
+      <div class="btn-group btn-group-justified" role="group" aria-label="...">
+        <div class="btn-group" role="group">
+          <button type="button" class="btn btn-primary groups_button" data-group="about_me">About me</button>
+        </div>
+        <div class="btn-group" role="group">
+          <button type="button" class="btn btn-warning groups_button" data-group="gallery">Gallery</button>
+        </div>
+        <div class="btn-group" role="group">
+          <button type="button" class="btn btn-success groups_button" data-group="achievements">Achievments</button>
+        </div>
+      </div>
+      <p></p>
+      <div class="about_groups about_me" style="display:none">
         <p>I am pursuing my career as <b>Data Scientist</b> at <a href="http://gramener.com"> Gramener </a>. I am good at analytics, programming and research. I have a good background in statistical analysis, digital signal processing and hands on experience in MATLAB, Python, R, D3, JQuery. This site is collections of what i do and learn.</p>
       </div>
-      <div class="about_groups gallery">
+      <div class="about_groups gallery" style="display:block">
         <div class="tile">
           <div class="tile_title">
             <img class="pos_center images_me" src="images/paper_barc_present.JPG">
@@ -95,6 +106,10 @@
           </div>
         </div>
       </div>
+      <div class="about_groups achievements" style="display:none">
+        Achievments
+      </div>
+
     </div>
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/bootstrap.js"></script>
